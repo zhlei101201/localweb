@@ -1,12 +1,12 @@
-<font size=3>
+<font size=4>
 
 # localweb
 &emsp;&emsp;&emsp;golang开发的网站镜像工具，可以将网站复制到本地，并以web的形式在本地操作（本地压缩和sqlite3存储），支持css&js，支持动态网页。阅读效果与直接登录原网站相同。   
-&emsp;&emsp;&emsp;暂不支持登录：各个网站差别较大，缺少通用性。
+&emsp;&emsp;&emsp;暂不支持登录：各个网站差别较大，缺少通用性。   
   
 
-
-##编译
+   
+## 编译
 go build -o localweb main.go   
 *提醒：windows下是localweb.exe*
 
